@@ -1,0 +1,41 @@
+body {
+    background-color: wheat;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.selection {
+    font-size: 1.4em;
+    transition: 140ms;
+}
+
+.selection:hover {
+    transform: scale(1.4);
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    margin: 20px;
+}
+
+.showResult {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.refreshBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
