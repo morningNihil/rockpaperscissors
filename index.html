@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock, Paper & Scissors</title>
     
 </head>
 <body>
+    <div class="container">
+    <button class="selection" id="rock">Rock</button>
+    <button class="selection" id="paper">Paper</button>
+    <button class="selection" id="scissors">Scissors</button>
+    </div>
+    
+
+    <!-- <input type="button" value="Rock" onclick="playRound(this)">
+    <input type="button" value="Paper" onclick="playRound(this)">
+    <input type="button" value="Scissors" onclick="playRound(this)"> -->
+    <div class="showResult">
+        <p></p>
+    </div>
+    <div class="result">
+        <div>You
+            <span id="userScore">0</span>
+        </div>
+        <div>Computer
+            <span id="computerScore">0</span>
+        </div>
+    </div>
+
+    <div class="refreshBtn"></div>
+
 
     <script type="text/javascript" src="script.js"></script>
     
